@@ -1,0 +1,64 @@
+# Criado por https://www.toptal.com/developers/gitignore/api/windows,dotenv,dotnetcore,visualstudiocode
+# Edite em https://www.toptal.com/developers/gitignore?templates=windows,dotenv,dotnetcore,visualstudiocode
+
+### dotenv ###
+.env
+
+### DotnetCore ###
+# Pastas de compilação do .NET Core
+lixeira/
+objeto/
+
+# Localizações comuns de módulos de nós
+/módulos_de_nó
+/wwwroot/módulos_de_nó
+
+### Código do VisualStudio ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensões.json
+!.vscode/*.trechos de código
+
+# Histórico local para o Visual Studio Code
+.história/
+
+# Extensões do Visual Studio Code criadas
+*.vsix
+
+### Patch do VisualStudioCode ###
+# Ignorar todo o histórico local de arquivos
+.história
+.ionídeo
+
+### Janelas ###
+# Arquivos de cache de miniaturas do Windows
+Polegares.db
+Thumbs.db:criptografável
+ehthumbs.db
+ehthumbs_vista.db
+
+# Arquivo de despejo
+*.stackdump
+
+# Arquivo de configuração de pasta
+[Dd]esktop.ini
+
+# Lixeira usada em compartilhamentos de arquivos
+$RECICLAGEM.BIN/
+
+# Arquivos do Windows Installer
+*.táxi
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Atalhos do Windows
+*.lnk
+### Visual Studio ###
+.vs/
+
+
+# Fim de https://www.toptal.com/developers/gitignore/api/windows,dotenv,dotnetcore,visualstudiocode
