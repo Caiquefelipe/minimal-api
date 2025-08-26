@@ -318,7 +318,6 @@ app.MapPut("/veiculos/{Id}", ([FromRoute] int Id, VeiculoDTO veiculoDTO, IVeicul
 
     if (veiculo == null) return Results.NotFound();
 
-    veiculo.Nome = veiculoDTO.Nome;
     veiculo.Marca = veiculoDTO.Marca;
     veiculo.Ano = veiculoDTO.Ano;
 

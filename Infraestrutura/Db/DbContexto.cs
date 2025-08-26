@@ -21,7 +21,8 @@ namespace minimal_api.Infraestrutura.Db
                 {
                     Id = 1,
                     Email = "Administrador@teste.com",
-                    Perfil = "adm"
+                    Senha = "123456",
+                    Perfil = "Adm"
                 }
                 );
         }
